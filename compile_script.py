@@ -1,5 +1,5 @@
 # Taken from ECE 484 Lab, Dr. Jamieson 
-# Adjusts made to fit project
+# Adjusts made to fit project, Frederick Levins
 
 import sys
 import os
@@ -14,7 +14,6 @@ def run_command(command):
     print('----------------------------------------')
     print('Executing: '+command)
     pipe = subprocess.Popen(command, shell=True, bufsize=1, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, universal_newlines=True)
-    #pipe.stdout.close()
     out, err = pipe.communicate()
     print (out)
     
@@ -34,7 +33,7 @@ else:
 
 level_of_compilation = int(sys.argv[1])
 
-path_win_avr = 'c:/avr-gcc-11.1.0/bin/' #changed
+path_win_avr = 'c:/avr-gcc-11.1.0/bin/'
 
 if level_of_compilation >= 1: 
     for fs in files_to_compile:
