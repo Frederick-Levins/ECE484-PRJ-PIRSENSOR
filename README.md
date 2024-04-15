@@ -2,6 +2,7 @@
 
 This is the repo of my ECE 484 Midterm chip interface. My chip is the HC-SR501 PIR sensor. The intention of this repo is to create a simple motion detection alarm system. The repo consists of a variety of files. All files' content and interoperibility are described in the wiki.
 
+
 To properly run:
 
 1.) Build IC
@@ -24,6 +25,7 @@ To properly run:
 
 
 Files:
+
 PIR.c --> Main C file that holds functionality of system
 
 Motion_Detected.jpg --> image of IC visual ouput when motion is detected by sensor
