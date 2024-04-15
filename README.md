@@ -37,6 +37,9 @@ compile_script.py --> script to run to compile and upload through avr to arduino
 
 pin_sheet.xlsx --> proper pin sheet to see arduino pins correleted to ports and values of megaAT
 
+Midterm_Presentation --> Is a pdf form of a presentation for more information into the HC-SR501 PIR Sensor
+
+Motion_Detecteds.png & No_Motion_Detetected.png --> Images of both states of the system for further understanding and usage in WIKI
 
 
 
