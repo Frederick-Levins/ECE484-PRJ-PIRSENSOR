@@ -24,6 +24,7 @@ To properly run:
 5.) Test functionality
 
 
+
 Files:
 
 PIR.c --> Main C file that holds functionality of system
