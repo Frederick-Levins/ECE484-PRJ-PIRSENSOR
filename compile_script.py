@@ -1,3 +1,6 @@
+# Taken from ECE 484 Lab, Dr. Jamieson 
+# Adjusts made to fit project
+
 import sys
 import os
 import subprocess
